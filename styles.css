@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-card {
+    max-width: 550px;
+    margin: 50px auto;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+/* Contenedor flotante para las sugerencias estilo teclado predictivo */
+.sugerencias-box {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    max-height: 160px;
+    overflow-y: auto;
+    border-radius: 0 0 6px 6px;
+}
